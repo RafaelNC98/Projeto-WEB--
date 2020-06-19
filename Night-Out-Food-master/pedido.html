@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Pedido
+	</title>
+	
+    <title>Night Food Delivery | Midnight Food | Night Out</title>
+<meta charset="utf-8">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+</head>
+<body style="margin-bottom: 200px;padding: 16px;">
+
+
+	<form action="recebe.php" method="POST"> 	
+	   <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input class="form-control" type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+   
+            <label for="endereco">Endereco:</label>
+            <input class="form-control" type="text" id="endereco" name="endereco" placeholder="Digite seu endereco" required>
+     
+
+            <label for="cpf">CPF:</label>
+            <input class="form-control" type="number" id="cpf" name="cpf" placeholder="Digite seu cpf" required>
+      
+            <label for="pratos">Pratos:</label>
+            <select class="form-control" id="pratos" name="prato" required>
+                <option  value="X-SALADA">X-SALADA R$ 12.00</option>
+                <option>X-BURGER  R$ 15.00</option>
+                   <option>Arroz Primavera  R$ 45.00</option>
+               <option>Bobó de Camarão  R$ 55.00</option>
+            
+            
+            </select>
+            <label for="pagamento">Pagamento:</label>
+       <div class="radio">
+  <label><input type="radio" name="pagamento" checked value="Dinheiro">Dinheiro</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="pagamento" value="Cartão de Débito">Cartão de Débito</label>
+</div>
+<div class="radio ">
+  <label><input type="radio" name="pagamento" value="Cartão de Crédito">Cartão de Crédito</label>
+</div>
+
+	 <input style="margin: 1em" class="btn btn-danger" type="submit" value="Enviar">
+  </div>
+
+
+</body>
+</html>

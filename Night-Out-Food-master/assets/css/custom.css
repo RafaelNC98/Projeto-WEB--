@@ -1,0 +1,485 @@
+*,:after,:before {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+     font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+/* */
+@font-face {
+    font-family: tittlium;
+    src: url(../fonts/tittlium/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: mm;
+    src: url(../fonts/mm/mn.ttf);
+}
+
+@font-face {
+    font-family: miso;
+    src: url(../fonts/miso/miso-bold.ttf);
+}
+
+@font-face {
+    font-family: changa;
+    src: url(../fonts/changa/Changa-Regular.ttf);
+}
+
+body{
+    font-family: tittlium;
+}
+
+.bgGrey{
+    background: #fafafa;
+}
+
+.textLeft{text-align: left;}
+.textCenter{text-align: center;}
+.textRight{text-align: right;}
+
+input{
+    font-family: tittlium;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+::-moz-placeholder {
+  color: #fff;
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
+:-moz-placeholder {
+  color: #fff;
+}
+
+.m{
+    margin: 5px;
+}
+
+.m-t-5{
+    margin-top: 5px;
+}
+.m-r-5{
+    margin-right: 5px;
+}
+
+.m-l-5{
+    margin-left: 5px;
+}
+
+.m-b-5{
+    margin-bottom: 5px;
+}
+
+.m-b-15{
+    margin-bottom: 15px;
+}
+
+.p{
+    padding: 5px;
+}
+
+.p-t-5{
+    padding-top: 5px;
+}
+
+.p-t-15{
+    padding-top: 15px;
+}
+
+.p-b-5{
+    padding-bottom: 5px;
+}
+
+.p-l-5{
+    padding-left: 5px;
+}
+
+.p-r-5{
+    padding-right: 5px;
+}
+
+
+/* Header Offers Section */
+.headerContactAndOffer{
+    /*background: linear-gradient(90deg, #00d2ff, #3a7bd5);*/
+    background: linear-gradient(90deg, #FF9800, #FF5722);
+    color: #fff;
+}
+
+.headerContactAndOffer h4{
+    font-family: tittlium;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.headerContactAndOffer button{
+    background: transparent !important;
+    border: 1px solid #fff;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.siteHeaderBanner{
+    background: url(../images/bannerbg_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.siteHeaderBanner h1, .siteHeaderBanner p{
+    font-family: tittlium;
+    color: #fff;
+}
+
+.siteHeaderBanner p{
+    font-size: 16px;
+}
+
+.overlay{
+    background: linear-gradient(180deg, rgba(0,0,0,0.85), rgba(0,0,0,0.7));
+    background-size: 100%;
+}
+
+.LogoandMenuArea{
+    padding: 18px 0;
+}
+
+.logo{
+    max-width: 170px;
+}
+
+.login-signup{
+    color: #fff;
+    font-size: 15px;
+}
+
+.login-signup:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-icon{
+    width: 20px;
+}
+
+.menu img{
+    margin: 20px 5px;
+}
+
+#loginModal .modal-header{
+    background: #222;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+#loginModal .logo{
+    margin: auto;
+}
+
+#loginModal .close{
+    opacity: 3;
+    color: #fff;
+}
+
+.loginSection{
+    padding: 15px 60px 0px 60px;
+}
+
+input, input[type="text"]{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px ;
+    border-radius: 0px !important;
+}
+
+.form-control:focus{
+    border-color: rgba(255, 153, 0,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 153, 0,.6);
+}
+
+.form-control{
+    box-shadow:none !important;
+}
+
+.textBelowSearchArea p{
+    width: 35%;
+    padding-bottom: 55px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.loginButton, .locationSearchButton{
+    color: #fff;
+    background: #FF5722;
+    border: 1px solid #FF5722;
+    padding: 15px;
+    border-radius: 0px !important;
+    font-size: 15px;
+    transition: all .4s ease;
+}
+
+.loginButton:hover, .locationSearchButton:hover, .loginButton:focus, .locationSearchButton:focus{
+    transition: all .4s ease;
+    background: #fff !important;
+    color: #FF9800 !important;
+    border: 1px solid #FF5722 !important;
+}
+
+.locationSearchButton:hover, .locationSearchButton:focus{
+    border: none !important;
+}
+
+.forgotPasswordLink, .newAccountLink{
+    color: #FF5722;
+}
+
+.forgotPasswordLink:hover, .newAccountLink:hover, .forgotPasswordLink:focus, .newAccountLink:focus{
+    transition: all .2s ease;
+    color: #00d858;
+    text-decoration: none;
+}
+
+.LogoandMenuArea input[type=text]{
+    background: url(../images/location.png) 0 no-repeat;
+    background-size: 25px;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 10px 50px;
+    font-size: 15px;
+    background-position: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.LogoandMenuArea h4, .LogoandMenuArea p{
+    color: #fff;
+}
+
+.locationSearchButton{
+    width: 115px;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    float: right;
+    position: absolute;
+    right: 16px;
+    bottom: 1px;
+    height: 48px;
+}
+
+.how-it-works{
+    background: #f9f9f9;
+}
+
+.how-it-works h3{
+    padding-top: 35px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.how-it-works p{
+    padding-bottom: 50px;
+    font-size: 1.1em;
+}
+
+.how-it-works-End{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.how-it-works-description{
+    padding-top: 25px;
+}
+
+.whats-on-our-menu-carousel-section{
+    margin-bottom: 25px;
+}
+
+.whats-on-our-menu-carousel-section .thumbnail{
+    box-shadow: 1px 1px 6px #888888;
+    padding: 0px !important;
+}
+
+.whats-on-our-menu-carousel-section img{
+    padding-top: 40px;
+}
+
+.whats-on-our-menu h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.whats-on-our-menu .container{
+    padding-bottom: 35px;
+}
+
+.owl-menu-carousel .owl-nav{
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+}
+
+.owl-menu-carousel .owl-prev{
+    position: absolute;
+    left: -35px;
+}
+
+.owl-menu-carousel .owl-next{
+    margin-right: -30px !important;
+}
+
+.owl-menu-carousel .owl-nav{
+    z-index: -1;
+}
+
+/* Footer Section*/
+.footerSection{
+    background: linear-gradient(90deg, #FF9800, #FF5722);
+    color: #fff;
+    font-family: tittlium;
+}
+
+
+
+/* Menu.html */
+.owl-discount-carousel h3{
+    color: #fff;
+}
+
+.owl-nav{
+    color: #fff;
+    position: relative;
+    bottom: 55px;
+    z-index: -1;
+}
+
+.owl-prev{
+    float: left;
+}
+
+.owl-next{
+    float: right;
+}
+
+.owl-theme .owl-nav [class*=owl-]{
+    background: none;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: none;
+}
+
+.owl-discount-carousel .owl-stage-outer{
+    z-index: -1;
+}
+
+/* Filter area */
+.mainFilterArea{
+    padding: 10px;
+}
+
+.mainFilterArea .upperHeading{
+    text-transform: uppercase;
+    color: #676775;
+    margin: 0;
+}
+
+.mainFilterArea .selectedAreaName{
+    border-bottom: dotted 2px #e85826;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.foodSectionHeading{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 1.8em;
+}
+
+.dishContainer{
+    margin: 0 auto;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 9px;
+    background: #fff;
+}
+
+.dishContainer img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dishContainer .info h4, .dishContainer .info p{
+    color: #e85826;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dishContainer a:hover, .dishContainer a:focus{
+    text-decoration: none;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 991px) {
+    .owl-discount-carousel .owl-nav img{
+        width: 50%;
+    }
+
+    .textBelowSearchArea p{
+        width: auto;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .owl-discount-carousel .owl-nav{
+       display: none;
+    }
+
+    .locationSearchButton{
+        width: 100%;
+        bottom: inherit;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .owl-discount-carousel h3{
+        font-size: 20px;
+    }
+
+    .dishContainer h4{
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
